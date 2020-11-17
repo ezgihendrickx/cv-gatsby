@@ -6,7 +6,7 @@ import { graphql } from "gatsby"
 
 export const query = graphql`
   query {
-    file(relativePath: { eq: "images/about.png" }) {
+    file(relativePath: { eq: "images/myphoto.png" }) {
       childImageSharp {
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.
@@ -23,8 +23,6 @@ const About = props => {
   console.log(query)
   return (
     <Layout>
-      <h2>Hello there, I'm Ezgi!</h2>
-
       <div className={aboutStyle.main}>
         <div className={aboutStyle.izquierda}>
           <div className={aboutStyle.imagen}>
@@ -37,7 +35,8 @@ const About = props => {
           <div className={aboutStyle.texto}>
             <div className={aboutStyle.iconos}>
               <i className="fas fa-map-marker-alt fa-md"></i>
-              <p>Ghent, Belgium</p>
+              <br></br>
+              <p>Ghent, Belgium </p>
             </div>
             <div className={aboutStyle.iconos}>
               <i className="fas fa-graduation-cap fa-md"></i>
@@ -54,6 +53,7 @@ const About = props => {
           </div>
         </div>
         <div className={aboutStyle.derecha}>
+          <h2>Hello there, I'm Ezgi!</h2>
           <p>
             To make a long story short, I am currently looking for my next
             challenge as a Front-end Developer, having expertise in both Web
