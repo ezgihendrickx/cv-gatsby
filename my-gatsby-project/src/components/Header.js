@@ -30,7 +30,7 @@ const Header = () => {
         <div className="dev">
           <h1>
             {data.site.siteMetadata.title}{" "}
-            <img src="./img/me.PNG" width="70px" height="70px"></img>
+            <img src="./img/ik.png" width="70px" height="70px"></img>
           </h1>
 
           <span className="attr">Front-End Developer</span>
