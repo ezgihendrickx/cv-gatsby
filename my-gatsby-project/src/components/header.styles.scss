@@ -13,8 +13,8 @@ h1 {
 }
 
 .attr {
-  font-family: "Anonymous Pro", monospace;
-  background-color: #c3f8ff;
+  font-family: "Lekton", monospace;
+  background-color: #e4b1aa;
   font-size: 1.2rem;
   margin: 0 0.5rem 0 0.5rem;
 }
@@ -31,7 +31,8 @@ h1 {
       color: black;
     }
   }
-  .fab {
+  .fab,
+  .far {
     -webkit-transition: -webkit-transform 0.2s ease-in-out;
     transition: transform 0.2s ease-in-out;
 

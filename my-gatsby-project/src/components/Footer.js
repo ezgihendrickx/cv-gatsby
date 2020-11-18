@@ -4,7 +4,10 @@ import "./footer.styles.scss"
 const Footer = () => {
   return (
     <div className="footer">
-      <p>Ezgi Hendrickx © - 2020, All rights reserved. </p>
+      <p>
+        © 2020, Built with&nbsp;
+        <a href="https://www.gatsbyjs.com/">Gatsby</a>
+      </p>
     </div>
   )
 }

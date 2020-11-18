@@ -30,9 +30,14 @@ const Header = () => {
         <div className="dev">
           <h1>
             {data.site.siteMetadata.title}{" "}
-            <img src="./img/ik.png" width="70px" height="70px"></img>
+            <img
+              src="./img/ik.png"
+              width="70px"
+              height="70px"
+              alt="memoji"
+            ></img>
           </h1>
-
+          <span className="dot">•</span>
           <span className="attr">Front-End Developer</span>
           <span className="dot">•</span>
           <span className="attr">UI Designer</span>
@@ -41,22 +46,22 @@ const Header = () => {
           <a href="https://github.com/ezgihendrickx">
             <i className="fab fa-github"></i>
           </a>
-          <a href="https://twitter.com/ezgihendrickx">
-            <i className="fab fa-twitter"></i>
-          </a>
-          <a href="https://dev.to/ezgihendrickx">
-            <i className="fab fa-dev"></i>
-          </a>
           <a href="https://www.linkedin.com/in/ezgi-hendrickx-0a897b15b/">
             <i className="fab fa-linkedin"></i>
           </a>
           <a href="mailto: ezgihendrickx@gmail.com">
             <i class="far fa-envelope"></i>
           </a>
+          <a href="https://twitter.com/ezgihendrickx">
+            <i className="fab fa-twitter"></i>
+          </a>
+          <a href="https://dev.to/ezgihendrickx">
+            <i className="fab fa-dev"></i>
+          </a>
         </div>
         <span className="pages-link">
-          <Link to="/">Portfolio</Link>|<Link to="/blog">Blog</Link>|
-          <Link to="/about">About</Link>
+          <Link to="/">Portfolio</Link>|<Link to="/about">About</Link>|
+          <Link to="/blog">Blog</Link>
         </span>
 
         <hr />
