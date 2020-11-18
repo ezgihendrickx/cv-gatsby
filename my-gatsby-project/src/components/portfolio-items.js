@@ -1,50 +1,59 @@
 const portfolioItems = [
   {
-    title: "Weather App",
-    sinopsis:
-      "Created with JavaScript using the Chart library and API’s to retrieve location and weather data. Click to open",
-    desc: "An assignment during the BeCode education.",
-    img: "./portfolio/faduense.png",
-    live: "https://ezgihendrickx.github.io/modern-javascript-application/",
-    repo: "https://github.com/martin2844/faduense",
+    title: "Todo List",
+    sinopsis: "This is my first minimalist Todo List. Open up for more details",
+    desc:
+      "The task was simple: you will build a small Todo application that lives in your browser, and saves todos even after browsers restart.",
+    img: "./portfolio/todo.png",
+    repo: "https://github.com/ezgihendrickx/intro-react",
+    live: "https://reactezgi.netlify.app/",
+    badge: "badge",
     idx: 1,
   },
   {
-    title: "Portfolio Item 2",
-    sinopsis: "This is just a quick description. Open up for more details",
+    title: "Weather App",
+    sinopsis:
+      "This is my very first Weather App assignment during the BeCode education.Click to open",
     desc:
-      "This is just a javascript array of objects. Gatsby makes the JSX elements to show up",
-    img: "./portfolio/bitcoin.png",
-    live: "bitcoinhoy.com.ar",
-    repo: "https://github.com/martin2844",
+      "Created with JavaScript using the Chart library and API’s to retrieve location and weather data.",
+    img: "./portfolio/Weatherapp.png",
+    repo: "https://github.com/ezgihendrickx/modern-javascript-application",
+    live: "https://ezgihendrickx.github.io/modern-javascript-application/",
     idx: 2,
   },
+
   {
-    title: "Portfolio Item 3",
-    sinopsis: "It also includes a Blog section, with the createPages Api",
+    title: "BeLekker Team Project",
+    sinopsis: "This is a cooking app with Login & Signup automation",
     desc:
-      "Write posts directly in markdown. Thanks to plugins, and the createPage Api, gatbsy generates blog posts automatically",
-    img: "./portfolio/ejs-blog.png",
-    repo: "https://github.com/martin2844/ejs-blog",
-    live: "https://my-ejs-blog.herokuapp.com/",
+      "BeLekker is a social cooking app bringing people together who share their passion for food.",
+    img: "./portfolio/belekker.gif",
+    repo: "https://github.com/ezgihendrickx/belekker",
+
+    live: "https://belekkerlive.netlify.app/",
+    badge: "badge",
     idx: 3,
   },
   {
-    title: "Portfolio Item 4",
-    sinopsis: "Its very minimalist, but that was the end goal",
-    desc: "This was inspired in Dinesh Pandiyan personal page",
-    img: "./portfolio/EJS.png",
-    repo: "https://github.com/martin2844",
-    live: "https://my-ejs-todo-list.herokuapp.com",
+    title: "Casino Royale Team Project",
+    sinopsis:
+      "The Memory game created by me can be played using below live link.",
+    desc:
+      "A group assignment website with 4 different games and a coin balance functionality. Created as a group assignment in HTML, CSS, Tailwind & Javascript.  Don’t forget to add some coins to your account before playing (hint: profile menu)  :)",
+    img: "./portfolio/Memorygame.png",
+    repo: "https://github.com/Sourcerors/CasinoRoyale",
+    live: "https://casinogame2020.netlify.app/index.html",
     idx: 4,
   },
   {
-    title: "Portfolio Item 5",
-    sinopsis: "Please message me at twitter @codigoMate",
-    desc: "I really appriciate any messages",
-    img: "./portfolio/Mate.png",
-    repo: "https://github.com/martin2844",
-    live: "https://codigomate.com",
+    title: "Antalya Dream Homes Real Estate Project",
+    sinopsis: "I'm currently working on this real-life project",
+    desc:
+      "AntalyaDreamHomes is my first real estate project. It is a real project for my father who will run this business soon.",
+    img: "./portfolio/antalya.png",
+    repo: "https://github.com/ezgihendrickx/realestate-react",
+    live: "https://determined-saha-7731a1.netlify.app/",
+    badge: "badge",
     idx: 5,
   },
 ]
