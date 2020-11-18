@@ -1,7 +1,8 @@
 const portfolioItems = [
   {
     title: "Todo List",
-    sinopsis: "This is my first minimalist Todo List. Open up for more details",
+    sinopsis:
+      "This is my first minimalist Todo List. Open up for more details.",
     desc:
       "The task was simple: you will build a small Todo application that lives in your browser, and saves todos even after browsers restart.",
     img: "./portfolio/todo.png",
@@ -13,7 +14,7 @@ const portfolioItems = [
   {
     title: "Weather App",
     sinopsis:
-      "This is my very first Weather App assignment during the BeCode education.Click to open",
+      "This is my very first Weather App assignment during the BeCode education. Click to open.",
     desc:
       "Created with JavaScript using the Chart library and API’s to retrieve location and weather data.",
     img: "./portfolio/Weatherapp.png",
@@ -24,7 +25,7 @@ const portfolioItems = [
 
   {
     title: "BeLekker Team Project",
-    sinopsis: "This is a cooking app with Login & Signup automation",
+    sinopsis: "This is a cooking app with Login & Signup automation.",
     desc:
       "BeLekker is a social cooking app bringing people together who share their passion for food.",
     img: "./portfolio/belekker.gif",
@@ -47,7 +48,7 @@ const portfolioItems = [
   },
   {
     title: "Antalya Dream Homes Real Estate Project",
-    sinopsis: "I'm currently working on this real-life project",
+    sinopsis: "I'm currently working on this real-life project.",
     desc:
       "AntalyaDreamHomes is my first real estate project. It is a real project for my father who will run this business soon.",
     img: "./portfolio/antalya.png",

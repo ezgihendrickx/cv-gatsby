@@ -20,6 +20,7 @@ module.exports = {
       options: {
         name: "src",
         path: `${__dirname}/src/`,
+        icon: `public/img/favicon.png`,
       },
     },
     "gatsby-transformer-remark",

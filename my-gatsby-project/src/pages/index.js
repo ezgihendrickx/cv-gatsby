@@ -33,7 +33,7 @@ function renderFolio() {
 
             {live ? (
               <span className="livelinks" key={"live" + idx}>
-                <a key={"liveLink" + idx} href={repo}>
+                <a key={"liveLink" + idx} href={live}>
                   🍋Live
                 </a>{" "}
               </span>
@@ -67,10 +67,10 @@ function renderFolio() {
 const Index = () => {
   return (
     <Layout>
-      <h1 className="opener">Welcome to My Portfolio!</h1>
+      <h1 className="opener">Welcome to My World!</h1>
       <p className="subtitle">
-        These are one of my favorite projects. Let's have a look my repo and
-        live version!
+        These are some of my favorite projects. Let's have a look at my repo's
+        and live versions!
       </p>
       {renderFolio()}
     </Layout>
