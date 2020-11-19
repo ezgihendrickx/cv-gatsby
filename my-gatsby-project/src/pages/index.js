@@ -28,7 +28,7 @@ function renderFolio() {
             </span>
           </label>
           <div key={"tab" + idx} class="tab-content">
-            <img alt="nicasia" src={img} />
+            <img alt="projectphotos" src={img} />
             {desc}
             <span className="repolinks" key={"repo" + idx}>
               <a key={"repoLink" + idx} href={repo}>
@@ -74,8 +74,8 @@ const Index = () => {
     <Layout>
       <h1 className="opener">Welcome to My World!</h1>
       <p className="subtitle">
-        These are some of my favorite projects. Let's have a look at my repo's
-        and live versions!
+        These are some of my favorite projects. <strong>Click on</strong> below
+        items to have a look at my repo's and live versions!
       </p>
       {renderFolio()}
     </Layout>
