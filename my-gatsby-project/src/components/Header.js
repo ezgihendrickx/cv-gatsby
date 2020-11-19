@@ -29,7 +29,7 @@ const Header = () => {
       <div className="header-main">
         <div className="dev">
           <h1>
-            {data.site.siteMetadata.title}{" "}
+            {data.site.siteMetadata.title}
             <img
               src="./img/ik.png"
               width="70px"
