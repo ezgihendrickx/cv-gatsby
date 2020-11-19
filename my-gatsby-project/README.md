@@ -8,7 +8,8 @@ You need to create a .env.development file, with the following env:
 GATSBY_GRAPHQL_IDE=playground.
 
 This will allow you to use Playground for your graphql IDE.
-___
+
+---
 
 ## Features
 
@@ -19,22 +20,17 @@ ___
 5. Social Media links.
 6. Array of portfolio items, very easy to modify and very quick to add new items.
 
-
 ### You should add.
 
 1. React Helmet for each page. SEO optimization.
 2. Add the tags right under header title to the gatsby config as an option
 3. Change the simple array of portfolio items, maybe to a GraphQl Query from local files or possible a CMS.
 4. Modify whatever you dont like.
-5. Probably polish the responsivness? 
-
-
-Contact me at @codigoMate.
-
+5. Probably polish the responsiveness?
 
 # To start:
+
 You need, gatsby, gatsby-cli installed globally.
 Then just npm i
 
-and run "npm run develop"
-
+and run "gatsby develop / npm run develop"
