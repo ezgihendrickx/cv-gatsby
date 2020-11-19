@@ -1,6 +1,7 @@
 import React from "react"
 import "./header.styles.scss"
 import { Link, graphql, useStaticQuery } from "gatsby"
+import memoji from "../images/ik.png"
 
 const Header = () => {
   const data = useStaticQuery(graphql`
@@ -30,12 +31,7 @@ const Header = () => {
         <div className="dev">
           <h1>
             {data.site.siteMetadata.title}
-            <img
-              src="./img/ik.png"
-              width="70px"
-              height="70px"
-              alt="memoji"
-            ></img>
+            <img src={memoji} width="70px" height="70px" alt="memoji"></img>
           </h1>
           <span className="dot">•</span>
           <span className="attr">Front-End Developer</span>
