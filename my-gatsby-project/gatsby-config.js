@@ -10,21 +10,31 @@ module.exports = {
   siteMetadata: {
     title: "Ezgi",
     author: "Ezgi Hendrickx",
-    siteUrl: `https://www.ezgihendrickx.com/webdevelopment`,
+    siteUrl: `https://www.ezgihendrickx.dev/webdevelopment`,
   },
   /* Your site config here */
   plugins: [
     "gatsby-plugin-sass",
     {
       resolve: "gatsby-source-filesystem",
+
       options: {
         name: "src",
         path: `${__dirname}/src/`,
-        icon: `public/img/favicon.png`,
       },
     },
     "gatsby-transformer-remark",
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `gatsby-starter-default`,
+        short_name: `starter`,
+        start_url: `/`,
+        icon: `src/images/favicon.png`,
+      },
+    },
   ],
 }

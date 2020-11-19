@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import "./index.styles.scss"
 import portfolioItems from "../components/portfolio-items"
+import Helmet from "react-helmet"
 
 function renderFolio() {
   return portfolioItems.map(
@@ -9,6 +10,10 @@ function renderFolio() {
       console.log(title)
       return (
         <div key={"div" + idx} className="tab">
+          <Helmet>
+            <title>Ezgi | Web Dev</title>
+          </Helmet>
+
           <input key={"index" + idx} type="checkbox" id={idx + title} />
           <label key={"label" + idx} className="tab-label" for={idx + title}>
             {" "}
