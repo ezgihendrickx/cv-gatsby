@@ -6,7 +6,9 @@ const Footer = () => {
     <div className="footer">
       <p>
         © 2020, Built with&nbsp;
-        <a href="https://www.gatsbyjs.com/">Gatsby</a>
+        <a href="https://www.gatsbyjs.com/" target="_blank">
+          Gatsby
+        </a>
       </p>
     </div>
   )

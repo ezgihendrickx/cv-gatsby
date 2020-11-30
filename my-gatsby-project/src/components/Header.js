@@ -39,19 +39,22 @@ const Header = () => {
           <span className="attr">UI Designer</span>
         </div>
         <div className="icons">
-          <a href="https://github.com/ezgihendrickx">
+          <a href="https://github.com/ezgihendrickx" target="_blank">
             <i className="fab fa-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/ezgi-hendrickx-0a897b15b/">
+          <a
+            href="https://www.linkedin.com/in/ezgi-hendrickx-0a897b15b/"
+            target="_blank"
+          >
             <i className="fab fa-linkedin"></i>
           </a>
-          <a href="mailto: ezgihendrickx@gmail.com">
+          <a href="mailto: ezgihendrickx@gmail.com" target="_blank">
             <i class="far fa-envelope"></i>
           </a>
-          <a href="https://twitter.com/ezgihendrickx">
+          <a href="https://twitter.com/ezgihendrickx" target="_blank">
             <i className="fab fa-twitter"></i>
           </a>
-          <a href="https://dev.to/ezgihendrickx">
+          <a href="https://dev.to/ezgihendrickx" target="_blank">
             <i className="fab fa-dev"></i>
           </a>
         </div>

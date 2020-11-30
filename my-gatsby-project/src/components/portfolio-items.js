@@ -51,9 +51,9 @@ const portfolioItems = [
     sinopsis: "I'm currently working on this real-life project.",
     desc:
       "AntalyaDreamHomes is my first real estate project. It is a real project for my father who will run this business soon.",
-    img: "./portfolio/antalya.png",
+    img: "./portfolio/Phaselis.png",
     repo: "https://github.com/ezgihendrickx/realestate-react",
-    live: "https://determined-saha-7731a1.netlify.app/",
+    live: "https://serene-mcnulty-87b80c.netlify.app/",
     badge: "badge",
     idx: 5,
   },

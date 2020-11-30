@@ -31,21 +31,21 @@ function renderFolio() {
             <img alt="projectphotos" src={img} />
             {desc}
             <span className="repolinks" key={"repo" + idx}>
-              <a key={"repoLink" + idx} href={repo}>
+              <a key={"repoLink" + idx} href={repo} target="_blank">
                 Github Repo
               </a>
             </span>
 
             {live ? (
               <span className="livelinks" key={"live" + idx}>
-                <a key={"liveLink" + idx} href={live}>
+                <a key={"liveLink" + idx} href={live} target="_blank">
                   🍋Live
                 </a>{" "}
               </span>
             ) : null}
             {badge ? (
               <span className="badge" key={"react" + "tailwind" + idx}>
-                <a key={"badge" + idx} href={badge}>
+                <a key={"badge" + idx} href={badge} target="_blank">
                   {" "}
                   <a href="https://reactjs.org/" target="_blank">
                     <img
