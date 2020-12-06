@@ -11,6 +11,9 @@ module.exports = {
     title: "Ezgi",
     author: "Ezgi Hendrickx",
     siteUrl: `https://www.ezgihendrickx.dev/webdevelopment`,
+    image: "src/images/myphoto.png",
+    description:
+      "Hello there, I'm Ezgi! I am currently looking for my next challenge as a Front-End Developer.",
   },
   /* Your site config here */
   plugins: [
