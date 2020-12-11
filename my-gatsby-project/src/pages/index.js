@@ -12,6 +12,13 @@ function renderFolio() {
         <div key={"div" + idx} className="tab">
           <Helmet>
             <title>Ezgi | Web Dev</title>
+
+            {/* <meta
+              property="og:image"
+              content={domain + "src/images/myphoto.png"}
+            />
+            <meta property="og:image:width" content="400" />
+            <meta property="og:image:height" content="50" /> */}
           </Helmet>
 
           <input key={"index" + idx} type="checkbox" id={idx + title} />
@@ -31,29 +38,52 @@ function renderFolio() {
             <img alt="projectphotos" src={img} />
             {desc}
             <span className="repolinks" key={"repo" + idx}>
-              <a key={"repoLink" + idx} href={repo} target="_blank">
+              <a
+                key={"repoLink" + idx}
+                href={repo}
+                target="_blank"
+                rel="noreferer"
+              >
                 Github Repo
               </a>
             </span>
 
             {live ? (
               <span className="livelinks" key={"live" + idx}>
-                <a key={"liveLink" + idx} href={live} target="_blank">
+                <a
+                  key={"liveLink" + idx}
+                  href={live}
+                  target="_blank"
+                  rel="noreferer"
+                >
                   🍋Live
                 </a>{" "}
               </span>
             ) : null}
             {badge ? (
               <span className="badge" key={"react" + "tailwind" + idx}>
-                <a key={"badge" + idx} href={badge} target="_blank">
+                <a
+                  key={"badge" + idx}
+                  href={badge}
+                  target="_blank"
+                  rel="noreferer"
+                >
                   {" "}
-                  <a href="https://reactjs.org/" target="_blank">
+                  <a
+                    href="https://reactjs.org/"
+                    target="_blank"
+                    rel="noreferer"
+                  >
                     <img
                       alt="Badge ReactJS"
                       src="https://img.shields.io/badge/REACT-yellow?style=flat&logo=react"
                     />
                   </a>{" "}
-                  <a href="https://tailwindcss.com/" target="_blank">
+                  <a
+                    href="https://tailwindcss.com/"
+                    target="_blank"
+                    rel="noreferer"
+                  >
                     <img
                       alt="Badge Tailwindcss"
                       src="https://img.shields.io/badge/TAILWIND-blue?style=flat&logo=tailwind-css"

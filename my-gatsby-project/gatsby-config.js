@@ -10,14 +10,12 @@ module.exports = {
   siteMetadata: {
     title: "Ezgi",
     author: "Ezgi Hendrickx",
-    siteUrl: `https://www.ezgihendrickx.dev/webdevelopment`,
-    image: "src/images/myphoto.png",
-    description:
-      "Hello there, I'm Ezgi! I am currently looking for my next challenge as a Front-End Developer.",
+    siteUrl: `https://ezgihendrickx.dev/`,
   },
   /* Your site config here */
   plugins: [
     "gatsby-plugin-sass",
+
     {
       resolve: "gatsby-source-filesystem",
 
@@ -30,6 +28,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
+
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
