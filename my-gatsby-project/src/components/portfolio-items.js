@@ -1,5 +1,16 @@
 const portfolioItems = [
   {
+    title: "AntalyaDom|Homes Real Estate Project",
+    sinopsis: "I'm currently working on this real-life project.",
+    desc:
+      "AntalyaDomHomes is my first real estate project. It is a real project for my father who will run this business soon.",
+    img: "./portfolio/antalyadomhomes.png",
+    repo: "https://github.com/ezgihendrickx/realestate-react",
+    live: "https://antalyadomhomes.com/",
+    badge: "badge",
+    idx: 5,
+  },
+  {
     title: "Todo List",
     sinopsis:
       "This is my first minimalist Todo List. Open up for more details.",
@@ -45,17 +56,6 @@ const portfolioItems = [
     repo: "https://github.com/Sourcerors/CasinoRoyale",
     live: "https://casinogame2020.netlify.app/index.html",
     idx: 4,
-  },
-  {
-    title: "AntalyaDom|Homes Real Estate Project",
-    sinopsis: "I'm currently working on this real-life project.",
-    desc:
-      "AntalyaDomHomes is my first real estate project. It is a real project for my father who will run this business soon.",
-    img: "./portfolio/antalyadomhomes.png",
-    repo: "https://github.com/ezgihendrickx/realestate-react",
-    live: "https://antalyadomhomes.com/",
-    badge: "badge",
-    idx: 5,
   },
 ]
 
