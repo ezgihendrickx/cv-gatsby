@@ -47,13 +47,13 @@ const portfolioItems = [
     idx: 4,
   },
   {
-    title: "Antalya Dream Homes Real Estate Project",
+    title: "AntalyaDom|Homes Real Estate Project",
     sinopsis: "I'm currently working on this real-life project.",
     desc:
-      "AntalyaDreamHomes is my first real estate project. It is a real project for my father who will run this business soon.",
-    img: "./portfolio/Phaselis.png",
+      "AntalyaDomHomes is my first real estate project. It is a real project for my father who will run this business soon.",
+    img: "./portfolio/antalyadomhomes.png",
     repo: "https://github.com/ezgihendrickx/realestate-react",
-    live: "https://serene-mcnulty-87b80c.netlify.app/",
+    live: "https://antalyadomhomes.com/",
     badge: "badge",
     idx: 5,
   },
