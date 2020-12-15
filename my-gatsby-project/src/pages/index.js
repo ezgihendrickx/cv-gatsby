@@ -12,13 +12,6 @@ function renderFolio() {
         <div key={"div" + idx} className="tab">
           <Helmet>
             <title>Ezgi | Web Dev</title>
-
-            {/* <meta
-              property="og:image"
-              content={domain + "src/images/myphoto.png"}
-            />
-            <meta property="og:image:width" content="400" />
-            <meta property="og:image:height" content="50" /> */}
           </Helmet>
 
           <input key={"index" + idx} type="checkbox" id={idx + title} />
