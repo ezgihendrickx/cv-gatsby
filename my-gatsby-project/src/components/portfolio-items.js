@@ -8,7 +8,7 @@ const portfolioItems = [
     repo: "https://github.com/ezgihendrickx/realestate-react",
     live: "https://antalyadomhomes.com/",
     badge: "badge",
-    idx: 5,
+    idx: 1,
   },
   {
     title: "Todo List",
@@ -20,7 +20,7 @@ const portfolioItems = [
     repo: "https://github.com/ezgihendrickx/intro-react",
     live: "https://reactezgi.netlify.app/",
     badge: "badge",
-    idx: 1,
+    idx: 2,
   },
   {
     title: "Weather App",
@@ -31,7 +31,7 @@ const portfolioItems = [
     img: "./portfolio/Weatherapp.png",
     repo: "https://github.com/ezgihendrickx/modern-javascript-application",
     live: "https://ezgihendrickx.github.io/modern-javascript-application/",
-    idx: 2,
+    idx: 3,
   },
 
   {
@@ -44,7 +44,7 @@ const portfolioItems = [
 
     live: "https://belekkerlive.netlify.app/",
     badge: "badge",
-    idx: 3,
+    idx: 4,
   },
   {
     title: "Casino Royale Team Project",
@@ -55,7 +55,7 @@ const portfolioItems = [
     img: "./portfolio/Memorygame.png",
     repo: "https://github.com/Sourcerors/CasinoRoyale",
     live: "https://casinogame2020.netlify.app/index.html",
-    idx: 4,
+    idx: 5,
   },
 ]
 
