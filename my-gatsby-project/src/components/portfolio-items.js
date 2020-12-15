@@ -4,7 +4,7 @@ const portfolioItems = [
     sinopsis: "I'm currently working on this real-life project.",
     desc:
       "AntalyaDomHomes is my first real estate project. It is a real project for my father who will run this business soon.",
-    img: "./portfolio/domhomes.png",
+    img: "./portfolio/home.png",
     repo: "https://github.com/ezgihendrickx/realestate-react",
     live: "https://antalyadomhomes.com/",
     badge: "badge",
