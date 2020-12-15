@@ -28,7 +28,7 @@ function renderFolio() {
             </span>
           </label>
           <div key={"tab" + idx} class="tab-content">
-            <img alt="projectphotos" src={img} />
+            <img alt="projectphoto1" src={img} />
             {desc}
             <span className="repolinks" key={"repo" + idx}>
               <a
