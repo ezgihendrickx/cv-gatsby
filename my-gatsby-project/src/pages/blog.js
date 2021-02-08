@@ -37,7 +37,7 @@ const Blog = () => {
   return (
     <Layout>
       <h1 className="opener">
-        My Blog: <small>The content for this page isn't ready yet. 🤷‍</small>
+        My Blog: <small>Welcome to my blog ❄️</small>
       </h1>
       {posts}
     </Layout>

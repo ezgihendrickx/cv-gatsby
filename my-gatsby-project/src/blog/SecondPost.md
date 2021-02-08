@@ -1,10 +1,10 @@
 ---
-title: "Second post"
+title: "What is Semantic?"
 date: "2020-11-17"
 sinopsis: "Semantic Markup"
 ---
 
-This is the second post
+
 
 ## Topics
 
