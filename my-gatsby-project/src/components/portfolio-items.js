@@ -1,9 +1,18 @@
 const portfolioItems = [
   {
-    title: "AntalyaDom|Homes Real Estate Project",
+    title: "Building a Minimalist CV with Gatsby",
+    sinopsis: "I've built my CV step by step and wrote an article on dev.to",
+    desc: "Building a Minimalist CV with Gatsby.",
+    img: "./portfolio/gatsby.png",
+    repo: "https://github.com/ezgihendrickx/gatsby-workshop",
+    live: "https://gatsbyminicv.netlify.app/",
+    idx: 1,
+  },
+  {
+    title: "AntalyaDomHomes Real Estate Project",
     sinopsis: "I'm currently working on this real-life project.",
     desc:
-      "AntalyaDomHomes is my first real estate project. It is a real project for my father who will run this business soon.",
+      "AntalyaDomHomes is my first real estate project. It is a real-life project.",
     img: "./portfolio/home.png",
     repo: "https://github.com/ezgihendrickx/realestate-react",
     live: "https://antalyadomhomes.com/",
